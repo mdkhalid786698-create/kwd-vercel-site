@@ -32,3 +32,12 @@ body{
     padding:25px;
     border-radius:15px;
 }
+
+.whitepaper-btn{
+    background:#d4af37;
+    color:black;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
