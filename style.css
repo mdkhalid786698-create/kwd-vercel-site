@@ -1,0 +1,34 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    padding:40px;
+}
+
+.logo{
+    width:250px;
+    margin-top:20px;
+}
+
+.buttons a{
+    background:#d4af37;
+    color:black;
+    padding:12px 20px;
+    margin:10px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.section{
+    margin-top:50px;
+    background:#111827;
+    padding:25px;
+    border-radius:15px;
+}
