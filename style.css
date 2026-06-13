@@ -129,3 +129,29 @@ h1{
     transform:scale(1.1);
     box-shadow:0 0 20px #ffd700;
 }
+
+.contract-box{
+    background:#111827;
+    padding:20px;
+    border-radius:15px;
+    margin:20px auto;
+    width:80%;
+    word-wrap:break-word;
+    border:1px solid rgba(255,215,0,0.3);
+}
+
+.copy-btn{
+    background:#ffd700;
+    color:black;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.copy-btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #ffd700;
+}

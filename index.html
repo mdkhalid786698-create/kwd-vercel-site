@@ -18,6 +18,16 @@
 
 </footer>
 
+<script>
+function copyContract() {
+  navigator.clipboard.writeText(
+    "0xD9D8d0f75ECf289e331DEa2C466cEf1227a11670"
+  );
+
+  alert("Contract copied!");
+}
+</script>
+
 <body>
 
 <div class="container">
@@ -45,15 +55,26 @@ Kawaid Coin (KWD) is a community-driven cryptocurrency project focused on growth
 <div class="section" id="Tokenomics">
 <h2>Tokenomics</h2>
 
-<div class="section">
-<h2>Tokenomics</h2>
-
 <div class="card">
 <p>Total Supply: 1,000,000 KWD</p>
 <p>Blockchain: BNB Smart Chain</p>
 <p>Ticker: KWD</p>
 <p>Community Driven Project</p>
 </div>
+
+</div>
+
+<div class="section">
+
+<h2>Smart Contract</h2>
+
+<div class="contract-box">
+0xD9D8d0f75ECf289e331DEa2C466cEf1227a11670
+</div>
+
+<button onclick="copyContract()" class="copy-btn">
+Copy Contract
+</button>
 
 </div>
 
