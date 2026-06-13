@@ -106,7 +106,7 @@ html{
 }
 ```
 h1{
-    font-size:60px;
+    font-size:14px;
     color:#ffd700;
     text-shadow:0 0 10px #ffd700,
                 0 0 20px #ffd700,
@@ -154,4 +154,11 @@ h1{
 .copy-btn:hover{
     transform:scale(1.05);
     box-shadow:0 0 20px #ffd700;
+}
+
+nav {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
 }
